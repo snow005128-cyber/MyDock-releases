@@ -1,0 +1,76 @@
+{
+  "version": "1.6.2",
+  "notes": "· 新增：按快捷键叫出 Dock 后，会保持显示一段时间再收回（默认 3 秒）。时长可以在「设置 → 隐藏 → 快捷键 → 按快捷键后显示多久」里调，1–60 秒，可拖滑块也可直接输入。",
+  "downloads": [
+    {
+      "url": "https://ghfast.top/https://github.com/snow005128-cyber/MyDock-releases/raw/dist/SnowDock.exe"
+    },
+    {
+      "url": "https://gh-proxy.com/https://github.com/snow005128-cyber/MyDock-releases/raw/dist/SnowDock.exe"
+    },
+    {
+      "url": "https://codeload.github.com/snow005128-cyber/MyDock-releases/zip/refs/heads/dist",
+      "zipEntry": "SnowDock.exe"
+    },
+    {
+      "url": "https://github.com/snow005128-cyber/MyDock-releases/raw/dist/SnowDock.exe"
+    }
+  ],
+  "sha256": "db0d1689fb275cc33e163587a75ae74ec96672a3b46cde3f9d0898808a7a30a9",
+  "size": 82139925,
+  "package": {
+    "fileBases": [
+      "https://ghfast.top/https://github.com/snow005128-cyber/MyDock-releases/raw/dist/app/",
+      "https://gh-proxy.com/https://github.com/snow005128-cyber/MyDock-releases/raw/dist/app/",
+      "https://github.com/snow005128-cyber/MyDock-releases/raw/dist/app/"
+    ],
+    "files": [
+      {
+        "name": "Microsoft.Windows.SDK.NET.dll",
+        "sha256": "0ec371d93798852e36461c8adddbeadce0f963a04752f0b64e54fe19c1c834a7",
+        "size": 24877600,
+        "packedSize": 6143560
+      },
+      {
+        "name": "SnowDock.deps.json",
+        "sha256": "97f38117bbf457d3807bc6813b96b864955b3f51da8a56e08b9fd38516c33401",
+        "size": 1089,
+        "packedSize": 375
+      },
+      {
+        "name": "SnowDock.dll",
+        "sha256": "9e8812db9d9e9c2393534415a90b2848da20a37429c3e11979344d401082f09b",
+        "size": 566784,
+        "packedSize": 357663
+      },
+      {
+        "name": "SnowDock.exe",
+        "sha256": "8fd5c3bf55ee30d35e9d5eabecf192e02aa5618305d3f4ea48646611faa6d1f1",
+        "size": 211968,
+        "packedSize": 119504
+      },
+      {
+        "name": "SnowDock.runtimeconfig.json",
+        "sha256": "30d0dc491056efaaa5e3816f68a688b28e32ff6ca4d3bc85c148c1708d23a453",
+        "size": 500,
+        "packedSize": 287
+      },
+      {
+        "name": "WinRT.Runtime.dll",
+        "sha256": "bcf3a14e8712a90837fc5c0d8c8a24696af2bd7f74e9767597ec81ededfb23db",
+        "size": 528944,
+        "packedSize": 185108
+      }
+    ],
+    "runtime": {
+      "version": "10.0.15",
+      "sha256": "23f0cb1ac3918d67c92a0b1a289933205043fcc646b75695edb71be9f11e84f8",
+      "size": 73556384,
+      "urls": [
+        "https://ghfast.top/https://github.com/snow005128-cyber/MyDock-releases/raw/dist/runtime/snowdock-runtime-10.0.15.zip",
+        "https://gh-proxy.com/https://github.com/snow005128-cyber/MyDock-releases/raw/dist/runtime/snowdock-runtime-10.0.15.zip",
+        "https://github.com/snow005128-cyber/MyDock-releases/raw/dist/runtime/snowdock-runtime-10.0.15.zip"
+      ]
+    }
+  }
+}
